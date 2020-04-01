@@ -1,1 +1,88 @@
 Estructuras Basicas
+
+	1.- Imprimir mensaje:
+	
+		System.out.print("Texto a imprimir aqui"+Variable a imprimir aqui+"Texto a imprimir aqui");
+		
+	2.- Guardar una variable
+		
+		//Instanciar el objeto
+		
+		Scanner scanner = new Scanner(System.in);
+
+		TipoDelObjeto NombreDelObjeto = new TipoDelObjeto(AtributosDelObjeto);  
+
+Variable de decisión 
+	
+	1.- (if, if-else, else) = verdadero, mas o menos, falso juas juas
+
+		if(condicion){
+			//Si la pinche condicion se cumple entra aqui
+		}
+		if-else(nueva condicion){
+			//Si el programa mama palo entra aqui 
+		}else{
+			//Si turbo caga palo entra aqui
+		}
+		
+	2.-	(if in-line) = Condicionar un mensaje
+		
+		String mssg = (Condición) ? "Si se cumple": "Si no se cumple";
+		
+		TipoDeVariable NombreDeLaVariable = (Condicion xd) ? "Texto": "texto otra vez";
+		
+	3.- (switch) = Un menu simple y pinche
+		
+		switch(variable decisiva){
+			case "1":					//Si se usa un int de variable se usa con comillas dobles
+				mamadas bla bla bla
+				mamadas bla bla bla
+				break;					//Usar un break a huevo si no entra por sus huevos al siguiente case
+			case 'B':					//Si se usa un char de variable se usa con comillas simples
+				mas mamadas bla bla bla
+				mas mamadas bla bla bla
+				break;
+			//Pueden haber mas "case" si el cliente culo quiere
+			default: //Poner un mensaje al usuario de que no mame, que entre un valor valido
+		}
+		
+Ciclos		
+		
+	1.- while = El ciclo inicia si la ccndicion es verdadera
+		
+		while(condicion){
+			
+			accion1;
+			accion2;
+			:
+		}	
+	
+	2.- do-while = Aqui primero se ejecuta al menos una vez y entre el do y el while y si la 
+				   condicion es verdadera termina el ciclo
+		
+		bla
+		bla
+		do{
+			mas bla bla bla
+			accion1;
+			accion2;
+			:
+		}while(condicion);
+		
+	3.- for = A diferencia de los anteriores la iteracion va dentro del ciclo (bucle)
+	
+		for(posicion inicial; condicion; incremendo o decremento)
+		{
+			mamadas bla bla bla;
+		}
+		
+Arrays (Una vez definido el tamaño de este, ya no vuelve a cambiar)
+
+	1.- Definicion del array:
+	
+		
+		
+		
+		
+		
+		
