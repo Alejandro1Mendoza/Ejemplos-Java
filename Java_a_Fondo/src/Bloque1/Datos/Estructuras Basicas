@@ -1,4 +1,4 @@
-Estructuras Basicas
+aEstructuras Basicas
 
 	1.- Imprimir mensaje:
 	
@@ -78,11 +78,25 @@ Ciclos
 		
 Arrays (Una vez definido el tamaño de este, ya no vuelve a cambiar)
 
-	1.- Definicion del array:
+	1.- Definir un array:
 	
+		int arr[] = new int[10];
+	  //TipoDeArray NombreDelArray = new TipoDeArray[TamañoDelArray]
 		
+	2.- Crear array
 		
+		int n = 10;             //Variable entera de valor 10
+		int arr[] = new int[n]; //Array del tamaño del valor de la variable
 		
+	3.- Asignarle un valor a traves de un subindice	
 		
+		array[5] = 123;
+		
+Martiz (Una matriz es un array de 2 dimenciones)
+		
+	1.- Definir	una matriz
+	
+		int mat[][] = new int[3][4];
+		//TipoDeDato NombreDeLaMatriz = new TipoDeDato[//Filas][//Columnas]
 		
 		
